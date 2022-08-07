@@ -37,3 +37,22 @@
 1. Переходим в нужный терминал
 2. Набираем команду `git add Example001_HelloConsole` чтобы отслеживать изменения в нашей папке
 3. Набираем команду `git commit -a`, затем вводим комментарий
+
+Просмотр превой лекции остановил на 22:13
+
+Продолжаем лекцию. Вводим следующий код:
+
+``` bash
+Console.WriteLine("Enter your name"); // Выводит строку с просьбой ввести имя
+string username = Console.ReadLine(); // Здесь терминал ожидает ввода строки
+Console.WriteLine("Hello, "); // Выводит приветствие
+Console.WriteLine(username); // Выводит имя
+```
+Теперь попробуем следующий код
+``` bash
+Console.Write("Enter your name");
+string username = Console.ReadLine();
+Console.Write("Hello, ");
+Console.Write(username);
+```
+Теперь всё закоммитим и отправим в репозиторий
